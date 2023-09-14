@@ -50,6 +50,20 @@
         <label class="form-label" for="descricao">Descrição*</label>
         <input class="form-control" type="text" id="descricao" name="descricao" value="" required>
     </div>
+
+    <div class=" col-md-3">
+        <label for="anexo" class="form-label">
+            Anexo
+        </label>
+        <input type="file" class="form-control" name="anexo" id="anexo"
+        value="{{ old('anexo') }}"   >
+
+
+    </div>
+
+
+
+
     <div class="col-md-2 offset-md-9">
         <input class="btn btn-primary" type="submit" value=" Cadastrar  Atualizar">
     </div>
